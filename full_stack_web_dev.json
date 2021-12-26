@@ -1,0 +1,83 @@
+{
+  "how_the_internet_works": [
+    "Hosting",
+    "DNS",
+    "HTTP",
+    "HTTPS",
+    "Browsers",
+    "Domain_Name",
+    "ip_address"
+  ],
+  "basic_tools": {
+    "text_editor": "Visual_Studio_Code",
+    "browser": ["Edge", "Chrome"],
+    "terminal": ["Bash", "Powershell"],
+    "Design": "Figma"
+  },
+  "programming_language": ["TS", "GO/Rust"],
+  "frontend": {
+    "HTML": [
+      "best_practices",
+      "semantic_html",
+      "forms_and_validations",
+      "accessibility",
+      "seo"
+    ],
+    "css": [
+      "basic",
+      "flexbox",
+      "css_grid",
+      "custom_properties",
+      {
+        "tranisitions/animation": ["plane_css", "gsap", "anime.js"]
+      },
+      {
+        "resonsive_design": [
+          "mobile_first",
+          "rem_units",
+          "viewport",
+          "fluid_width",
+          "media_queries"
+        ]
+      },
+      { "css_preprocessors": "sass" },
+      { "modern_css": ["styled_components", "css_modules"] },
+      { "css_frameworks": ["tailwind_css", "material-ui"] }
+    ],
+    "javascript": [
+      "basic_syntax",
+      "dom_manipulation",
+      "fetch_api",
+      "json",
+      "es6+",
+      "Typescript💗",
+      {
+        "frontend_framework": [
+          "React",
+          {
+            "server_side_rendering": "Next.js",
+            "static_site_generators": "Next.js"
+          },
+          {
+            "state_management": ["context_api", "redux"]
+          }
+        ]
+      },
+      "progressive_web_application",
+      { "Graphql": "apollo-client" },
+      { "project_management": "npm" },
+      { "web_assembly": "rush/golang" }
+    ]
+  },
+  "backend": ["Node.js", { "backend_framework": "express.js" }],
+  "database": { "sql": "postgreSQL", "noSql": "mongodb" },
+  "api": ["REST", "GraphQL", { "authentication": ["OAuth", "JWT", "AuthO"] }],
+  "real_time": ["websocket", "webRTC"],
+  "development/DevOps": {
+    "testing": ["Cypress"],
+    "web_servers": "nginx",
+    "hosting": ["Heroku", "Vercel"],
+    "ci/cd": "github_actions",
+    "certificate": "ssl"
+  }
+}
